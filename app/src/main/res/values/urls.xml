@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_head">
+        https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLXzyviRtoffis3ym514Wvia0QA2LzwzhSl77PhXAnsApGw8od5g
+    </string>
+
+    <string-array name="urls">
+        <!--Data Analyst-->
+        <item>https://static1.squarespace.com/static/562bf658e4b0947cbf09e119/56a9bf8aa2bab825781407a6/56ad4a3862cd942d9e486841/1475605883712/?format=1500w</item>
+        <!--Front-end-->
+        <item>http://lh3.googleusercontent.com/-VquyWBz-7gLOJNr8GhJoQp4Z1HNSSFrHG0k5AFVFI8KeyMb8nr06RQDbRqJ7gPHqODUgVPiH2uZrJZEGRTs=s0</item>
+        <!--Android Basic-->
+        <item>https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/Android.png</item>
+
+        <!--Android Developer-->
+        <item>https://lh6.ggpht.com/57QPWoDnN4dSulg4tqC_pFHcN5pmUIzyrXyu3TiirP1JRCQ36fzz6IgEPl2HdMZ3GIrc80rRzAkRiPUyOXM=s0</item>
+
+        <!--Machine Learning-->
+        <item>http://digital-thinking.de/wp-content/uploads/2016/08/MLND-blog-post-1024x536.png</item>
+
+        <!--Full Stack-->
+        <item>https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/Full-Stack.png</item>
+
+        <!--iOS Developer-->
+        <item>http://lh3.googleusercontent.com/7aGXJZE4f0M-kIJw0_HZKSOOoanE42dyEz6agRS0ZVkpK-ALftVYRnaEdA9wGp0tUx5S5LPwTJIWCMRjfg=s0</item>
+        <!--Analise de Negócio-->
+        <item>http://1onjea25cyhx3uvxgs4vu325.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/PredictiveAnalyticsForBusiness_Udacity.png</item>
+        <!--Realidade Virtual-->
+        <item>https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/Virtual-Reality.png</item>
+
+
+    </string-array>
+</resources>
