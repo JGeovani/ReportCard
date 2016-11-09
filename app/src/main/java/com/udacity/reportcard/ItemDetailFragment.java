@@ -51,13 +51,13 @@ public class ItemDetailFragment extends Fragment {
             Activity activity = this.getActivity();
             CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
             if (appBarLayout != null) {
-                appBarLayout.setTitle(mItem.content);
+                appBarLayout.setTitle(mItem.getContent());
             }
             ImageView imageHead = (ImageView) activity.findViewById(R.id.imageHead);
             showHeaderBackgroud(getResources().getStringArray(R.array.urls)[Integer.valueOf(position)], imageHead);
 
             TextView circuleText = (TextView) activity.findViewById(R.id.circleTextView);
-            circuleText.setText(mItem.grade);
+            circuleText.setText(mItem.getGrade());
         }
     }
 
@@ -76,7 +76,7 @@ public class ItemDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_detail, container, false);
         if (mItem != null) {
             TextView textView = (TextView) rootView.findViewById(R.id.item_detail);
-            textView.setText(mItem.details);
+            textView.setText(mItem.getDetails());
         }
         return rootView;
     }

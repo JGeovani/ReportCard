@@ -88,8 +88,8 @@ public class ItemListActivity extends AppCompatActivity {
         public void onBindViewHolder(final ViewHolder holder, int position) {
             holder.mItem = mValues.get(position);
             holder.mIdView.setText(mValues.get(position).id);
-            holder.mContentView.setText(mValues.get(position).content);
-            holder.mGradeText.setText(mValues.get(position).grade);
+            holder.mContentView.setText(mValues.get(position).getContent());
+            holder.mGradeText.setText(mValues.get(position).getGrade());
 
             startActivityOnClick(holder);
         }
